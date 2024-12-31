@@ -102,6 +102,19 @@
 
 ---
 
+### 12. [`USBDetector.sh`](https://github.com/IAidenI/LinuxTools/tree/main/USBDetector.sh)
+- **Description** : Surveille en temps réel la connexion et la déconnexion des périphériques USB sur un système Linux.
+- **Fonctionnalités** :
+  - Surveillance continue des événements USB en utilisant `inotifywait`.
+  - Affichage de notifications lorsqu'un périphérique est connecté ou déconnecté.
+  - Identification du fabricant (vendor) du dernier périphérique connecté.
+  - Gestion des erreurs lorsque les fichiers système requis ne sont pas disponibles.
+- **Utilisation idéale** :
+  - Suivre et identifier les périphériques USB branchés sur le système pour des raisons de sécurité ou de gestion des périphériques.
+> Est un projet en lien avec [`usb_monitor`](https://github.com/IAidenI/Linux-Modules/blob/main/bin/USBMonitor/usb_monitor.c), tout seul il ne sert à rien.
+
+---
+
 ## Installation
 
 1. **Pré-requis** :
